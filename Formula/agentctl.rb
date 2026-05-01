@@ -1,28 +1,28 @@
 class Agentctl < Formula
   desc "CLI combining git worktrees and coding agents to tackle GitHub issues"
   homepage "https://github.com/arun-gupta/agentctl"
-  version "0.16.0"
+  version "0.17.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/arun-gupta/agentctl/releases/download/v#{version}/agentctl-darwin-arm64.tar.gz"
-      sha256 "fa11ad212c52537ec7141ffdefe85b225e98cb5f31c102dfa7221ca58672e0e3"
+      sha256 "6cd7fb42f697d372e18b55388c5b1466234613b16d02dd069c3bde6ebec20468"
     end
     on_intel do
       url "https://github.com/arun-gupta/agentctl/releases/download/v#{version}/agentctl-darwin-amd64.tar.gz"
-      sha256 "d9eb1a7f4849d3c7d2602d2e3c2856ef733f67bab6b860e57c33e67d630ca280"
+      sha256 "c45cf51244eb950c8e14d02f5931e124f3f41338fa0fe078d335f5a029de8176"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/arun-gupta/agentctl/releases/download/v#{version}/agentctl-linux-arm64.tar.gz"
-      sha256 "0a7cb4d03940772823e0780f5c62c3f7271af163504f7fdc09917f88a1fd81be"
+      sha256 "0b4a561a7189dcf23be87437c6177982be97b68b088fd67f1700452ec9253e17"
     end
     on_intel do
       url "https://github.com/arun-gupta/agentctl/releases/download/v#{version}/agentctl-linux-amd64.tar.gz"
-      sha256 "a00262a6d0062a93b91c2af6aa8fc1d2dc81480a7d7f7916b69e5035ed17cc40"
+      sha256 "3677e4e6a6236a736fc0268613d15cc03fff29abdd691a9ab63f158ae69e14d2"
     end
   end
 
